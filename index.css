@@ -1,0 +1,267 @@
+:root {
+  --sidebar-color: #eeb241;
+  --dorminant-color: #222222;
+  --special-color: #2390cf;
+  --high-color: #fffeff;
+  --sidebar-shadow: rgba(0, 0, 0, 0.9);
+  --sidebar-glow: 0 0 0.1em;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 250px;
+  margin: 0;
+  padding: 0;
+  font-family: "CustomFont", Arial, sans-serif;
+}
+nav {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-color: var(--special-color);
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 16em;
+  color: var(--high-color);
+  padding: 30px;
+  box-shadow: 0.2em 0 0.2em rgba(0, 0, 0, 0.3);
+  background-color: var(--special-color);
+}
+
+header {
+  /* position: sticky;
+  top: 0; */
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+main {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  background-color: #efeff5;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+
+img.header-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.dash-heading {
+  color: var(--high-color);
+  cursor: pointer;
+  margin-bottom: 40px;
+  padding: 0.5em 0;
+  top: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.dash-heading,
+img {
+  vertical-align: bottom;
+}
+
+.dash-heading:hover,
+.dash-heading:hover,
+img {
+  color: var(--high-color);
+  fill: var(--high-color);
+}
+
+ul a {
+  display: block;
+  padding: 0 0 0.5em 2em;
+  color: var(--high-color);
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul img {
+  margin-right: 1em;
+}
+
+ul a[title="Settings"] {
+  margin-top: 4em;
+}
+
+div.contain {
+  display: grid;
+  grid-template-rows: 100px;
+}
+
+.contain-pt1 {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  padding: 0 10px;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  width: 800px;
+  height: 50px;
+  font-size: 1.3em;
+  border-radius: 50px;
+  border: none;
+  background: rgb(82, 82, 82, 0.1);
+  padding: 10px;
+}
+
+.btn-sr {
+  width: 60px;
+  background-color: white;
+  border: none;
+  height: 50px;
+}
+
+.contain-pt {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+div > div.child1 {
+  display: flex;
+  justify-self: end;
+  padding-top: 10px;
+  padding-right: 100px;
+}
+
+.btn2 {
+  width: 10px;
+  background-color: white;
+  border: none;
+  height: 50px;
+  margin-right: 90px;
+}
+
+.btn1 {
+  width: 10px;
+  background-color: white;
+  border: none;
+  height: 50px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+p.usr {
+  width: 50px;
+  margin-left: 80px;
+}
+
+div.child {
+  display: grid;
+  grid-template-columns: 10px 10px;
+  grid-template-rows: 10px;
+  padding-left: 20px;
+}
+
+h4 {
+  margin-left: 30px;
+  width: 150px;
+}
+
+h2 {
+  margin-left: 120px;
+  width: 150px;
+}
+
+div > div.child2 {
+  justify-self: end;
+  padding: 30px 20px;
+}
+
+button.btn {
+  background-color: var(--special-color);
+  color: var(--high-color);
+  padding: 10px;
+  border: none;
+  width: 120px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+section h3 {
+  display: block;
+  font-size: 1.1em;
+  margin: 0 0 1em;
+  white-space: nowrap;
+}
+
+div.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 550px 550px 550px 550px 550px;
+  gap: 20px;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+h1.project-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.exercises {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 5px;
+  padding: 60px 25px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1;
+  border-radius: 1em;
+  padding: 10px;
+  box-shadow: inset 0.5em 0 0 var(--sidebar-color),
+    0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+  background-color: var(--high-color);
+}
+
+.css-js {
+  display: grid;
+  grid-template-columns: 1;
+  border-radius: 1em;
+  padding: 10px;
+  background-color: var(--high-color);
+}
+
+.project-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-img {
+  margin-right: 10px;
+  width: 60px;
+}
+
+article h3 {
+  font-size: 2rem;
+  color: var(--dorminant-colorr);
+  margin-bottom: 10px;
+  top: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bolder;
+}
