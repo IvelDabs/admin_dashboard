@@ -205,10 +205,10 @@ section h3 {
 div.projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 550px 550px 550px 550px 550px;
+  grid-template-rows: 100px 500px 500px 500px 500px 500px;
   gap: 20px;
   padding: 20px;
-  margin-right: 50px;
+  margin-right: 5px;
 }
 
 h1.project-title {
