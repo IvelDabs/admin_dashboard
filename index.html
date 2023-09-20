@@ -1,564 +1,322 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard project</title>
-    <link rel="stylesheet" href="./index.css" />
-  </head>
-  <body>
-    <nav>
-      <div class="sidebar">
-        <h1 class="dash-heading">
-          <img src="./assets/layout.png" alt="" /><span>Dashboard</span>
-        </h1>
-        <ul>
-          <a title="Home" href="#"
-            ><img src="./assets/home.png" alt="" /><span>Home</span></a
-          >
-          <a title="Profile" href="#"
-            ><img src="./assets/user.png" alt="" /><span>Profile</span></a
-          >
-          <a title="Messages" href="#"
-            ><img src="./assets/conversation.png" alt="" /><span
-              >Messages</span
-            ></a
-          >
-          <a title="History" href="#"
-            ><img src="./assets/history.png" alt="" /><span>History</span></a
-          >
-          <a title="Tasks" href="#"
-            ><img src="./assets/checklist.png" alt="" /><span>Tasks</span></a
-          >
-          <a title="Communities" href="#"
-            ><img src="./assets/people.png" alt="" /><span>Communities</span></a
-          >
-          <a title="Settings" href="#"
-            ><img src="./assets/settings.png" alt="" /><span>Settings</span></a
-          >
-          <a title="Support" href="#"
-            ><img src="./assets/support.png" alt="" /><span>Support</span></a
-          >
-          <a title="icon_privacy" href="#"
-            ><img src="./assets/prrivacy.png" alt="" /><span>prrivacy</span></a
-          >
-        </ul>
-      </div>
-    </nav>
-
-    <header>
-      <div class="contain">
-        <div class="contain-pt">
-          <div class="contain-pt1">
-            <form action="">
-              <button class="btn-sr">
-                <img src="./assets/search.png" alt="" />
-              </button>
-              <input
-                type="text"
-                name="search"
-                id="search"
-                placeholder="Type search....."
-              />
-            </form>
-          </div>
-          <div class="child1">
-            <button class="btn1">
-              <img src="./assets/notification.png" alt="" />
-            </button>
-            <button class="btn2">
-              <img src="./assets/anonymous.png" alt="" class="header-icon" />
-            </button>
-            <h4 class="name">User Name Field</h4>
-          </div>
-        </div>
-
-        <div class="contain-pt">
-          <div class="child">
-            <img src="./assets/anonymous.png" alt="" class="header-icon" />
-            <h2>Hi there,</h2>
-            <h2 class="name">User Name</h2>
-          </div>
-          <div class="child2">
-            <a href=""><button class="btn">About</button></a>
-            <a href=""> <button class="btn">Contact</button></a>
-            <a href=""><button class="btn">Share</button></a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section>
-        <div
-          style="display: grid; grid-template-columns: 3fr 1fr; padding: 0 50px"
-        >
-          <div class="projects">
-            <h1 class="project-title">MY PROJECTS</h1>
-            <article>
-              <h3>
-                <img src="./assets/card.png" alt="" /><span>Portfolio</span>
-              </h3>
-              <img
-                src="./assets/p-img.jpeg"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>
-                Portfolio Project which highlights achievements and projects
-                developed, showcasing my proficieny work with several skills and
-                frameworks. It's a handful collection of amazing web
-                applications from the combination of "The Odin Project
-                curriculum" and Meta's frontend certification projects.
-              </p>
-              <div class="project-div">
-                <a href=""
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href=""
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3>
-                <img src="./assets/card.png" alt="" /><span>Weather</span>
-              </h3>
-              <img
-                src="./assets/p-img.jpeg"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>
-                Local Weather Conditions and 7-Day Forecast App with
-                customizable settings and weather-based themes....
-              </p>
-              <div class="project-div">
-                <a href=""
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href=""
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3>
-                <img src="./assets/card.png" alt="" /><span>LCD Calcutor</span>
-              </h3>
-              <img
-                src="./assets/p-img.jpeg"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>
-                An LCD Calculator App written in JavaScript with an SVG display.
-              </p>
-              <div class="project-div">
-                <a href=""
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href=""
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3><img src="./assets/brush.png" alt="" /><span>Paint</span></h3>
-              <img
-                src="./assets/p-img.jpeg"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>
-                A Paint-by-Pixel Image Creation App with save, export, and print
-                abilities.
-              </p>
-              <div class="project-div">
-                <a href=""
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href=""
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3>
-                <img src="./assets/rock-paper-scissors.png" alt="" /><span
-                  >Rock Paper Scissors</span
-                >
-              </h3>
-              <img
-                src="./assets/p-img.jpeg"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>A Rock Paper Scissors game written in JavaScript.</p>
-              <div class="project-div">
-                <a href=""
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href=""
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3>
-                <img src="./assets/checklist.png" alt="" /><span>TO Do</span>
-              </h3>
-              <img
-                src="./assets/p-img.jpeg"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>A To-Do List and Task Tracker.</p>
-              <div class="project-div">
-                <a href=""
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href=""
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3><img src="" alt="" /><span>Tick Tack Toe</span></h3>
-              <img
-                src="./assets/p-img.jpeg"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>A Tic Tac Toe game with an intelligent AI opponent.</p>
-              <div class="project-div">
-                <a href="https://github.com/IvelDabs/Tick-Tack-Toe"
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href="https://iveldabs.github.io/Tick-Tack-Toe/"
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3>
-                <img src="./assets/open-book.png" alt="" /><span>Liabry</span>
-              </h3>
-              <img
-                src="./assets/library.png"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>Library App to store, track, and sort a book collection.</p>
-              <div class="project-div">
-                <a href="https://github.com/IvelDabs/Library"
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href="https://iveldabs.github.io/Library/"
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3>
-                <img src="./assets/rock-paper-scissors.png" alt="" /><span
-                  >Adin Dashboard</span
-                >
-              </h3>
-              <img
-                src="./assets/d.png"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>A User Dashboard project.</p>
-              <div class="project-div">
-                <a href="https://admin-dashboard-eight-drab.vercel.app/"
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href="https://github.com/IvelDabs/admin_dashboard"
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3>
-                <img src="./assets/registration.png" alt="" /><span
-                  >Sign Up Page</span
-                >
-              </h3>
-              <img
-                src="./assets/signup.png"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-
-              <p>A Sign-Up Form Mock-Up with Browser-Based Input Validation.</p>
-              <div class="project-div">
-                <a href="https://github.com/IvelDabs/signup-odin"
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href="https://iveldabs.github.io/signup-odin/"
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3>
-                <img src="./assets/registration.png" alt="" /><span
-                  >Login Form</span
-                >
-              </h3>
-              <img
-                src="./assets/cslabs.png"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>
-                A Log in Form Mock-Up with Browser-Based Input Validation. Built
-                on React.js framework
-              </p>
-              <div class="project-div">
-                <a href="https://cs-labs-iota.vercel.app/"
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href="https://github.com/IvelDabs/Cs.Labs"
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-
-            <article>
-              <h3>
-                <img src="./assets/world-wide-web.png" alt="" /><span
-                  >Landing Page</span
-                >
-              </h3>
-              <img
-                src="./assets/landing.png"
-                alt=""
-                style="
-                  height: 250px;
-                  width: 450px;
-                  border-radius: 20px;
-                  margin: 15px;
-                "
-              />
-              <p>A Landing Page Mock-Up written in CSS and HTML.</p>
-              <div class="project-div">
-                <a
-                  title="Live Version"
-                  href="https://iveldabs.github.io/landing_page/"
-                  ><img src="./assets/vision.png" alt="" class="project-img"
-                /></a>
-                <a href="https://github.com/IvelDabs/landing_page"
-                  ><img src="./assets/github.jpeg" alt="" class="project-img"
-                /></a>
-              </div>
-            </article>
-          </div>
-          <div class="exercises">
-            <h1>JAVASCRIPT EXERCISES</h1>
-            <div>
-              <div class="css-css">
-                <a href="">
-                  <h3>Caesar Cipher</h3>
-                  <p>Encrypt/Decrypt messages using the Caesar Cipher.</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Fibonacci</h3>
-                  <p>
-                    Calculate the value of the position in the Fibonacci
-                    sequence of a given number.
-                  </p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Palindromes</h3>
-                  <p>Analyze a string and determine if it is a Palindrome.</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Find the Oldest</h3>
-                  <p>
-                    Find the oldest person in an object regardless of living
-                  </p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Get the Titles</h3>
-                  <p>Get book titles from an array of book objects.</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Calculator</h3>
-                  <p>Basic calculator functions.</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Temp Conversion</h3>
-                  <p>Temperature celsius/fahrenheit conversion.</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Leap Years</h3>
-                  <p>Determine whether or not a given year is a leap year.</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Sum All</h3>
-                  <p>
-                    Take 2 integers and return the sum of every number between
-                    (and including) them.
-                  </p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Remove from Array</h3>
-                  <p>Remove a specified value from an array.</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Repeat a String</h3>
-                  <p>Repeat a string a given number of times.</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Hello World</h3>
-                  <p>JEST Javascript Testing Framework exercise.</p>
-                </a>
-              </div>
-
-              <h1>CSS EXERCISES</h1>
-              <div class="css-css">
-                <a href="">
-                  <h3>Grid Layout</h3>
-                  <p>The Holy Grail Layout with Grid</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Grid Scallong 1</h3>
-                  <p>Responsive Holy Grid layout with Grid</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Flex Layout 2</h3>
-                  <p>The Holy Grail of Layouts with Flexbox</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Flex Layout 1</h3>
-                  <p>An entire page.</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Flex Modal</h3>
-                  <p>A common "modal" style with Flexbox</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Flex Information</h3>
-                  <p>A very common website feature</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Flex Header 2</h3>
-                  <p>Another common header style</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Flex Header 1</h3>
-                  <p>A Basic Header</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Flex Center</h3>
-                  <p>Centering with Flexbox</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Pop-Up Modal</h3>
-                  <p>Pop-Up Modal Activated on Button Click</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Drop-Down Menu</h3>
-                  <p>Drop-Down Menu Activated on Hover</p>
-                </a>
-                <hr />
-                <a href="">
-                  <h3>Button Hover</h3>
-                  <p>Change Text Size on Hover</p>
-                </a>
-                <hr />
-              </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dashboard project</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="sidebar">
+                <h1 class="dash-heading"><img src="./assets/layout.png" alt="" /><span>Dashboard</span></h1>
+                <ul>
+                    <a title="Home" href="#"><img src="./assets/home.png" alt="" /><span>Home</span></a>
+                    <a title="Profile" href="#"><img src="./assets/user.png" alt="" /><span>Profile</span></a>
+                    <a title="Messages" href="#"><img src="./assets/conversation.png" alt="" /><span>Messages</span></a>
+                    <a title="History" href="#"><img src="./assets/history.png" alt="" /><span>History</span></a>
+                    <a title="Tasks" href="#"><img src="./assets/checklist.png" alt="" /><span>Tasks</span></a>
+                    <a title="Communities" href="#"><img src="./assets/people.png" alt="" /><span>Communities</span></a>
+                    <a title="Settings" href="#"><img src="./assets/settings.png" alt="" /><span>Settings</span></a>
+                    <a title="Support" href="#"><img src="./assets/support.png" alt="" /><span>Support</span></a>
+                    <a title="icon_privacy" href="#"><img src="./assets/prrivacy.png" alt="" /><span>prrivacy</span></a>
+                </ul>
             </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+        </nav>
+
+        <header>
+            <div class="contain">
+                <div class="contain-pt">
+                    <div class="contain-pt1">
+                        <form action="">
+                            <button class="btn-sr">
+                                <img src="./assets/search.png" alt="" />
+                            </button>
+                            <input type="text" name="search" id="search" placeholder="Type search....." />
+                        </form>
+                    </div>
+                    <div class="child1">
+                        <button class="btn1">
+                            <img src="./assets/notification.png" alt="" />
+                        </button>
+                        <button class="btn2">
+                            <img src="./assets/anonymous.png" alt="" class="header-icon" />
+                        </button>
+                        <h4 class="name">User Name Field</h4>
+                    </div>
+                </div>
+
+                <div class="contain-pt">
+                    <div class="child">
+                        <img src="./assets/anonymous.png" alt="" class="header-icon" />
+                        <h2>Hi there,</h2>
+                        <h2 class="name">User Name</h2>
+                    </div>
+                    <div class="child2">
+                        <a href=""><button class="btn">About</button></a>
+                        <a href=""> <button class="btn">Contact</button></a>
+                        <a href=""><button class="btn">Share</button></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div style="display: grid; grid-template-columns: 3fr 1fr; padding: 0 50px">
+                    <div class="projects">
+                        <h1 class="project-title">MY PROJECTS</h1>
+                        <article>
+                            <h3><img src="./assets/card.png" alt="" /><span>Portfolio</span></h3>
+                            <img src="./assets/p-img.jpeg" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>Portfolio Project which highlights achievements and projects developed, showcasing my proficieny work with several skills and frameworks. It's a handful collection of amazing web applications from the combination of "The Odin Project curriculum" and Meta's frontend certification projects.</p>
+                            <div class="project-div">
+                                <a href=""><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href=""><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/card.png" alt="" /><span>Weather</span></h3>
+                            <img src="./assets/p-img.jpeg" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>Local Weather Conditions and 7-Day Forecast App with customizable settings and weather-based themes....</p>
+                            <div class="project-div">
+                                <a href=""><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href=""><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/card.png" alt="" /><span>LCD Calcutor</span></h3>
+                            <img src="./assets/p-img.jpeg" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>An LCD Calculator App written in JavaScript with an SVG display.</p>
+                            <div class="project-div">
+                                <a href=""><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href=""><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/brush.png" alt="" /><span>Paint</span></h3>
+                            <img src="./assets/p-img.jpeg" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>A Paint-by-Pixel Image Creation App with save, export, and print abilities.</p>
+                            <div class="project-div">
+                                <a href=""><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href=""><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/rock-paper-scissors.png" alt="" /><span>Rock Paper Scissors</span></h3>
+                            <img src="./assets/p-img.jpeg" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>A Tic Tac Toe game with an intelligent AI opponent.</p>
+                            <div class="project-div">
+                                <a href=""><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href=""><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/checklist.png" alt="" /><span>TO Do</span></h3>
+                            <img src="./assets/p-img.jpeg" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>A To-Do List and Task Tracker.</p>
+                            <div class="project-div">
+                                <a href=""><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href=""><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="" alt="" /><span>Tick Tack Toe</span></h3>
+                            <img src="./assets/p-img.jpeg" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>A Rock, paper, Scissors written in JavaScript</p>
+                            <div class="project-div">
+                                <a href="https://github.com/IvelDabs/Tick-Tack-Toe"><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href="https://iveldabs.github.io/Tick-Tack-Toe/"><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/open-book.png" alt="" /><span>Liabry</span></h3>
+                            <img src="./assets/library.png" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>Library App to store, track, and sort a book collection.</p>
+                            <div class="project-div">
+                                <a href="https://github.com/IvelDabs/Library"><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href="https://iveldabs.github.io/Library/"><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/rock-paper-scissors.png" alt="" /><span>Adin Dashboard</span></h3>
+                            <img src="./assets/d.png" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>A User Dashboard project.</p>
+                            <div class="project-div">
+                                <a href="https://admin-dashboard-eight-drab.vercel.app/"><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href="https://github.com/IvelDabs/admin_dashboard"><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/registration.png" alt="" /><span>Sign Up Page</span></h3>
+                            <img src="./assets/signup.png" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+
+                            <p>A Sign-Up Form Mock-Up with Browser-Based Input Validation.</p>
+                            <div class="project-div">
+                                <a href="https://github.com/IvelDabs/signup-odin"><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href="https://iveldabs.github.io/signup-odin/"><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/registration.png" alt="" /><span>Login Form</span></h3>
+                            <img src="./assets/cslabs.png" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>A Log in Form Mock-Up with Browser-Based Input Validation. Built on React.js framework</p>
+                            <div class="project-div">
+                                <a href="https://cs-labs-iota.vercel.app/"><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href="https://github.com/IvelDabs/Cs.Labs"><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+
+                        <article>
+                            <h3><img src="./assets/world-wide-web.png" alt="" /><span>Landing Page</span></h3>
+                            <img src="./assets/landing.png" alt="" style="height: 250px; width: 450px; border-radius: 20px; margin: 15px" />
+                            <p>A Landing Page Mock-Up written in CSS and HTML.</p>
+                            <div class="project-div">
+                                <a title="Live Version" href="https://iveldabs.github.io/landing_page/"><img src="./assets/vision.png" alt="" class="project-img" /></a>
+                                <a href="https://github.com/IvelDabs/landing_page"><img src="./assets/github.jpeg" alt="" class="project-img" /></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="exercises">
+                        <h1>JAVASCRIPT EXERCISES</h1>
+                        <div>
+                            <div class="css-css">
+                                <a href="">
+                                    <h3>Caesar Cipher</h3>
+                                    <p>Encrypt/Decrypt messages using the Caesar Cipher.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Fibonacci</h3>
+                                    <p>Calculate the value of the position in the Fibonacci sequence of a given number.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Palindromes</h3>
+                                    <p>Analyze a string and determine if it is a Palindrome.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Find the Oldest</h3>
+                                    <p>Find the oldest person in an object regardless of living</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Get the Titles</h3>
+                                    <p>Get book titles from an array of book objects.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Calculator</h3>
+                                    <p>Basic calculator functions.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Temp Conversion</h3>
+                                    <p>Temperature celsius/fahrenheit conversion.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Leap Years</h3>
+                                    <p>Determine whether or not a given year is a leap year.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Sum All</h3>
+                                    <p>Take 2 integers and return the sum of every number between (and including) them.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Remove from Array</h3>
+                                    <p>Remove a specified value from an array.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Repeat a String</h3>
+                                    <p>Repeat a string a given number of times.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Hello World</h3>
+                                    <p>JEST Javascript Testing Framework exercise.</p>
+                                </a>
+                            </div>
+
+                            <h1>CSS EXERCISES</h1>
+                            <div class="css-css">
+                                <a href="">
+                                    <h3>Grid Layout</h3>
+                                    <p>The Holy Grail Layout with Grid</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Grid Scallong 1</h3>
+                                    <p>Responsive Holy Grid layout with Grid</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Flex Layout 2</h3>
+                                    <p>The Holy Grail of Layouts with Flexbox</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Flex Layout 1</h3>
+                                    <p>An entire page.</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Flex Modal</h3>
+                                    <p>A common "modal" style with Flexbox</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Flex Information</h3>
+                                    <p>A very common website feature</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Flex Header 2</h3>
+                                    <p>Another common header style</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Flex Header 1</h3>
+                                    <p>A Basic Header</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Flex Center</h3>
+                                    <p>Centering with Flexbox</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Pop-Up Modal</h3>
+                                    <p>Pop-Up Modal Activated on Button Click</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Drop-Down Menu</h3>
+                                    <p>Drop-Down Menu Activated on Hover</p>
+                                </a>
+                                <hr />
+                                <a href="">
+                                    <h3>Button Hover</h3>
+                                    <p>Change Text Size on Hover</p>
+                                </a>
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
